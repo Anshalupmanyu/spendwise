@@ -147,3 +147,14 @@ body {
     padding: 10px;
 }
 
+/*Footer styling*/
+.footer{
+    background-color: #4222;
+    color: white;
+    text-align: center;
+    padding: 20px 10fx;
+}
+
+.footer-content a{
+    color: papayawhip;
+}
