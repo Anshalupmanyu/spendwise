@@ -84,3 +84,21 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+
+.fcontainer{
+    display: flex;
+    margin:12px ;
+}
+
+.fitem{
+    background-color:#202d32 ;
+    height: 67vh;
+    width: 33vw;
+    margin: 12px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
