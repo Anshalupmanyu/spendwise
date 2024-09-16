@@ -1,0 +1,22 @@
+.balance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #546163;
+    color: white;
+}
+
+.balance-box {
+    background-color: #202d32;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 70%;
+}
+
+.balance-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

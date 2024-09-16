@@ -1,0 +1,35 @@
+.fcontainer{
+    display: grid;
+    margin-left:12px ;
+    margin-right:12px ;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 420px;
+}
+
+#fitem1{
+    grid-column: 1/2;
+    text-align: center;
+    background-color: #202d32;
+    border-radius: 16px;
+    margin: 4px;
+    color: white;
+    padding: 10px;
+}
+#fitem2{
+    grid-column: 2/3;
+    text-align: center;
+    background-color: #202d32;
+    border-radius: 16px;
+    margin: 4px;
+    color: white;
+    padding: 10px;
+}
+#fitem3{
+    grid-column: 3/4;
+    text-align: center;
+    background-color: #202d32;
+    border-radius: 16px;
+    margin: 4px;
+    color: white;
+    padding: 10px;
+}
