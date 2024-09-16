@@ -9,7 +9,7 @@ body {
 /* Navbar */
 .navbar {
     display: grid;
-    grid-template-columns: 150px 1fr 150px 30px;
+    grid-template-columns: 150px 1fr 150px;
     align-items: center;
     padding: 5px 20px;
     font-size: 1rem;
@@ -59,32 +59,6 @@ body {
     color: #969595;
 }
 
-.iconsign{
-    height: 16px;
-    width: 32px;
-    cursor: pointer;
-}
-.bar{
-    height: 5px;
-    width: 100;
-    background-color: white;
-    display: block;
-    border-radius: 5px;
-    transition: 0.3s ease;
-}
-#bar1{
-    transform: translateY(-4px);
-    margin: 2px;
-}
-#bar2{
-    transform: translateY(-4px);
-    margin: 2px;
-}
-#bar3{
-    transform: translateY(-4px);
-    margin: 2px;
-}
-
 /* Balance */
 
 .balance {
@@ -114,7 +88,8 @@ body {
 
 .fcontainer{
     display: grid;
-    margin:12px ;
+    margin-left:12px ;
+    margin-right:12px ;
     grid-template-columns: 33.33% 33.33% 33.33%;
     grid-template-rows: 420px;
 }
@@ -147,46 +122,3 @@ body {
     padding: 10px;
 }
 
-/*Footer styling*/
-.footer{
-    background-color: #4222;
-    color: white;
-    text-align: center;
-    padding: 200px 100x;
-}
-
-.footer-content a{
-    color: papayawhip;
-}
-
-/*dropdown MEnu*/
-.dropdown{
-    position: relative;
-    display: ruby-text;
-}
-/* Hover effect for the dropdown button */
-.dropdown .dropbtn:hover {
-    background-color: greenyellow;
-}
-
-.dropdown-content{
-    display:none ;
-    position: absolute;
-    background-color: #f9f9f9;
-    max-width: 1800px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: auto;
-    text-decoration: none;
-    display: block;
-}
-
-
-/* Show the dropdown when hovering */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
