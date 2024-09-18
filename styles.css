@@ -130,21 +130,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 90vh;
 }
 
 .auth-box{
     background-color:rgb(241, 233, 226);
-    padding: 40px;
+    padding: 25px;
     width: 400px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 80px;
+    align-items: center;
 }
 
 .auth-form{
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
 }
 
 .auth-form h2 {
@@ -208,20 +209,73 @@ body {
     background-color: black;
 }
 
-/*Sign Up link */
+/* Social login container */
+.social-login {
+    display: flex;
+    flex-direction: column;       /* Stack the buttons vertically */
+    gap: 10px;   
+    align-items: center;                 /* Add space between the buttons */
+      
+                                  /* Space above social login buttons */
+}
+
+/* Social login container */
+.social-login {
+    display: flex;
+    flex-direction: column;       /* Stack buttons vertically */
+    gap: 10px;                    /* Add space between the buttons */
+    margin-top: 20px;             /* Space above the social buttons */
+}
 
 
+/* Common styling for social login buttons */
+.google-btn, .facebook-btn {
+    display: flex;
+    justify-content: center;      /* Center text within the buttons */
+    align-items: center;          /* Center content vertically */
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 13px;
+    font-size: 16px;
+    cursor: pointer;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+}
 
+/* Google button specific styling */
+.google-btn {
+    background-color: #DB4437;                    /* Google brand color */
+    color: white;
+}
+
+/* Facebook button specific styling */
+.facebook-btn {
+    background-color: #4267B2;                  /* Facebook brand color */
+    color: white;
+}
+
+/* Styling the social icons */
+.social-icon {
+    width: 20px;                  /* Size of the icon */
+    height: 20px;
+}
+
+/* Hover effect for buttons */
+.google-btn:hover, .facebook-btn:hover {
+    opacity: 0.9;                               /* Slight transparency on hover */
+}
 
 /* Center the Sign Up link */
 .signup-link {
-    display: block;               /* Display it as block to take full width */
-    text-align: center;           /* Center the text inside the link */
+    display: block;               
+    text-align: center;           
     font-size: 16px;
-    color: #007BFF;               /* Set link color */
-    text-decoration: none;        /* Remove underline */
-    margin-top: 10px;             /* Space above the Sign Up link */
-    padding: 10px;                /* Padding for clickable area */
+    color: #007BFF;               
+    text-decoration: none;        
+    margin-top: 10px;            
+    padding: 10px;               
 }
 
 .auth-form a:hover {
