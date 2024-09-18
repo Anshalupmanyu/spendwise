@@ -131,6 +131,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 90vh;
+    padding-bottom: 5%;
 }
 
 .auth-box{
@@ -140,6 +141,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 80px;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .auth-form{
@@ -281,10 +283,3 @@ body {
 .auth-form a:hover {
     text-decoration: underline;
 }
-
-
-
-
-
-
-
