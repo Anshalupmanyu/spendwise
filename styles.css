@@ -178,6 +178,7 @@ body {
     
 }
 
+/* Log In button styling */
 .auth-btn{
 
     background-color: grey;
@@ -190,6 +191,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 90px;
+    margin-bottom: 25px;
 
 }
 
@@ -206,19 +208,26 @@ body {
     background-color: black;
 }
 
-.auth-form p {
-    text-align: center;
-    font-size: 19px;
-}
+/*Sign Up link */
 
-.auth-form a {
-    color: blue;
-    text-decoration: none;
+
+
+
+/* Center the Sign Up link */
+.signup-link {
+    display: block;               /* Display it as block to take full width */
+    text-align: center;           /* Center the text inside the link */
+    font-size: 16px;
+    color: #007BFF;               /* Set link color */
+    text-decoration: none;        /* Remove underline */
+    margin-top: 10px;             /* Space above the Sign Up link */
+    padding: 10px;                /* Padding for clickable area */
 }
 
 .auth-form a:hover {
     text-decoration: underline;
 }
+
 
 
 
