@@ -1,12 +1,11 @@
-// Toggle between Login and Sign-Up forms
-document.getElementById('show-signup').addEventListener('click', function(event) {
-    event.preventDefault();
-    document.getElementById('login-form').style.display = 'none';
-    document.getElementById('signup-form').style.display = 'block';
+const getStartedBtn = document.querySelector('#startbtn');
+const dialog = document.querySelector('.auth-container');
+const closeBtn = document.getElementById('dialog');
+
+getStartedBtn.addEventListener('click', () => {
+  dialog.style.display = 'flex';
 });
 
-document.getElementById('show-login').addEventListener('click', function(event) {
-    event.preventDefault();
-    document.getElementById('signup-form').style.display = 'none';
-    document.getElementById('login-form').style.display = 'block';
+closeBtn.addEventListener('click', () => {
+  dialog.style.display = 'none';
 });

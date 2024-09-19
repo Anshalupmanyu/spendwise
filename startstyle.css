@@ -1,0 +1,166 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #546163;
+}
+
+.auth-container{
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    padding-bottom: 5%;
+}
+
+.auth-box{
+    background-color:rgb(241, 233, 226);
+    padding: 25px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.auth-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-form h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label{
+
+    font-size: 20px;
+    margin-bottom: 5px;
+    display: block;
+    
+
+}
+
+.input-group input{
+
+    width: 94%;
+    zoom: 1.3;
+    padding: 10px;
+    border: 1px solid #0c0c0c;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color:whitesmoke ;
+    
+}
+
+/* Log In button styling */
+.auth-btn{
+
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    margin-bottom: 25px;
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: left;     /* Vertically center */
+    flex-direction: column;  /* Stack items in a column if needed */
+    width: 100%;             /* Take up full width of the parent container */
+
+}
+
+.auth-btn:hover {
+    background-color: black;
+}
+
+.divider {
+    width: 90%;
+}
+
+/* Social login container */
+.social-login {
+    display: flex;
+    flex-direction: column;       
+    gap: 10px;   
+    align-items: center;  
+    margin-top: 20px; 
+      
+}
+
+
+
+/* Common styling for social login buttons */
+.google-btn, .facebook-btn {
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+}
+
+/* Google button specific styling */
+.google-btn {
+    background-color: #e87c67;
+    color: white;
+}
+
+/* Facebook button specific styling */
+.facebook-btn {
+    background-color: #3e76da;
+    color: white;
+}
+
+/* Styling the social icons */
+.social-icon {
+    width: 20px;                  /* Size of the icon */
+    height: 20px;
+    margin-right: 20px;
+}
+
+/* Hover effect for buttons */
+.google-btn:hover, .facebook-btn:hover {
+    opacity: 0.9;                               /* Slight transparency on hover */
+}
+
+/* Center the Sign Up link */
+.signup-link {
+    display: block;               
+    text-align: center;           
+    font-size: 16px;
+    color: #007BFF;               
+    text-decoration: none;        
+    margin-top: 10px;            
+    padding: 10px;               
+}
+
+.auth-form a:hover {
+    text-decoration: underline;
+}
+
+.startbtn {
+    display: flex;
+    flex-direction: column;
+}
