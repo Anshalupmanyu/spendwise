@@ -195,13 +195,14 @@ html,body {
 
 .startbtn :hover {
     cursor: pointer;
-    background-color: #202d32;
+    background-color: #8f989b;
 }
 
 #signup, #login {
     padding: 20px;
     border-radius: 13px;
     border: none;
+    box-shadow: 2px 1px #1e1d1d;
 }
 
 .art {
